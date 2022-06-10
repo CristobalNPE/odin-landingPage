@@ -30,3 +30,38 @@ html {
 .menu__item {
   cursor: pointer;
 }
+
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  padding-block: 4em;
+  padding-inline: 8em;
+  gap: 3rem;
+  justify-content: space-between;
+}
+.hero__title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero__img {
+  height: 200px;
+  width: auto;
+}
+.hero__text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.button {
+  text-decoration: none;
+  padding-inline: 1.5em;
+  padding-block: .3em;
+  border-radius: 5px;
+  display: inline-block;
+  margin-block: .5em;
+}
+.btn--primary {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 600;
+}
