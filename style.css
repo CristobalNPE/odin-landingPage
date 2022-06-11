@@ -175,3 +175,15 @@ html {
 .cba__text {
   font-size: 1.1em;
 }
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding-block: 3em;
+  text-align: center;
+
+}
+
+.footer__text {
+  font-size: 1.2em;
+}
