@@ -14,7 +14,7 @@ html {
 .hero,
 .info,
 .quotes,
-.cba,
+.cba__container,
 .footer {
   padding-inline: 15%;
 }
@@ -72,17 +72,27 @@ html {
 
 .button {
   text-decoration: none;
-  padding-inline: 1.5em;
-  padding-block: .3em;
+  padding-inline: 1em;
+  padding-block: .5em;
   border-radius: 5px;
   display: inline-block;
   margin-block: .5em;
+  width: 8em;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .btn--primary {
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 600;
+}
+
+.btn--secondary {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 600;
+  border: 2px solid #F9FAF8;
 }
 
 .info {
@@ -135,4 +145,33 @@ html {
   font-size: 24px;
   color: #1F2937;
   padding-block: 1em;
+}
+
+.cba {
+  padding-block: 6em;
+}
+
+.cba__container {
+  background-color: #3882F6;
+  width: auto;
+  padding-block: 3em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cba__title,
+.cba__text {
+  color: #F9FAF8;
+}
+
+.cba__title {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.cba__text {
+  font-size: 1.1em;
 }
