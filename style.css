@@ -116,3 +116,23 @@ html {
   text-align: center;
   color: rgb(61, 61, 61);
 }
+
+.quotes {
+  background-color: #E5E7EB;
+  padding-block: 6em;
+}
+
+.quote__main-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote__owner {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1F2937;
+  padding-block: 1em;
+}
