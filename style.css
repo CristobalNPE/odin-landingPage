@@ -5,21 +5,34 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   font-family: 'Roboto', sans-serif;
 }
+
+.navbar,
+.hero,
+.info,
+.quotes,
+.cba,
+.footer {
+  padding-inline: 15%;
+}
+
 .navbar {
   background-color: #1F2937;
   display: flex;
-  padding-inline: 8rem;
+
   justify-content: space-between;
   align-items: center;
   padding-block: 1em;
 }
+
 .navbar__logo {
   color: #F9FaF8;
   font-size: 24px;
 }
+
 .navbar__menu {
   list-style: none;
   display: flex;
@@ -27,6 +40,7 @@ html {
   color: #E5E7EB;
   font-size: 18px;
 }
+
 .menu__item {
   cursor: pointer;
 }
@@ -35,23 +49,27 @@ html {
   background-color: #1F2937;
   display: flex;
   padding-block: 4em;
-  padding-inline: 8em;
+
   gap: 3rem;
   justify-content: space-between;
 }
+
 .hero__title {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
 }
+
 .hero__img {
   height: 200px;
   width: auto;
 }
+
 .hero__text {
   font-size: 18px;
   color: #E5E7EB;
 }
+
 .button {
   text-decoration: none;
   padding-inline: 1.5em;
@@ -60,8 +78,41 @@ html {
   display: inline-block;
   margin-block: .5em;
 }
+
 .btn--primary {
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 600;
+}
+
+.info {
+  padding-block: 2em;
+}
+
+.info__header {
+  text-align: center;
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.info__container {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2em;
+}
+
+.info-card {
+  width: 150px;
+}
+
+.info-card__img {
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.info-card__text {
+  text-align: center;
+  color: rgb(61, 61, 61);
 }
